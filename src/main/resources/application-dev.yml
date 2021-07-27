@@ -1,0 +1,18 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: resowner-service
+      
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+  datasource:
+    url: jdbc:mysql://develop.codesour.tech:9306/movDtw?zeroDateTimeBehavior=convertToNull
+    username: root
+    password: password
+  
+  main:
+    allow-bean-definition-overriding: true 
